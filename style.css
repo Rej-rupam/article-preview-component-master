@@ -80,9 +80,10 @@
   border-radius: 10px;
   background-color: hsl(217, 19%, 35%);
   position: absolute;
-  top: 46%;
-  margin-left: 220px;
+  top: 50%;
+  margin-left: -80px;
   color: aliceblue;
+  display: none;
 }
 .content {
   height: 100%;
@@ -106,4 +107,7 @@
 .pinteret {
   height: 20px;
   width: 20px;
+}
+.box4:hover .icon-box {
+  display: block;
 }
